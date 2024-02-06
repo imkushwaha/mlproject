@@ -55,3 +55,15 @@ isort ./<package-dir-name>
 ```bash 
 black ./<package-dir-name>
 ```
+
+### Create a docker  and scripts directory
+
+```bash
+mkdir docker
+mkdir docker/scripts
+```
+
+- Create startup-scripts.sh under scripts dir
+- Create Dockerfile under docker dir
+- Create .dockerignore file under project dir and ignore everything, then allow only required files and directories to pass
+
