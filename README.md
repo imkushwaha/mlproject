@@ -67,3 +67,5 @@ mkdir docker/scripts
 - Create Dockerfile under docker dir
 - Create .dockerignore file under project dir and ignore everything, then allow only required files and directories to pass
 
+
+### You can rename mlproject dir with your project name
